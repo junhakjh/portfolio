@@ -11,18 +11,20 @@ export default function ProjectsSection() {
 
   return (
     <section className='py-24'>
-      <CategoryTitle>Projects</CategoryTitle>
-      {/* <FadeReveal> */}
+      <FadeReveal>
+        <CategoryTitle>Projects</CategoryTitle>
+      </FadeReveal>
       {data && (
         <ul>
           {data.map((project, index) => (
             <li key={index}>
-              <ProjectInfo data={project} />
+              <FadeReveal>
+                <ProjectInfo data={project} />
+              </FadeReveal>
             </li>
           ))}
         </ul>
       )}
-      {/* </FadeReveal> */}
     </section>
   );
 }
