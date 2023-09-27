@@ -11,7 +11,9 @@ export default function ProjectsSection() {
 
   return (
     <section className='py-24'>
-      <CategoryTitle>Projects</CategoryTitle>
+      <FadeReveal>
+        <CategoryTitle>Projects</CategoryTitle>
+      </FadeReveal>
       {data && (
         <ul>
           {data.map((project, index) => (

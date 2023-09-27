@@ -8,7 +8,7 @@ type Props = {
 
 export default function FadeReveal({ children }: Props) {
   return (
-    <Fade cascade damping={0.6} delay={500} duration={1300} triggerOnce>
+    <Fade damping={0.6} delay={500} duration={1300} triggerOnce>
       {children}
     </Fade>
   );
