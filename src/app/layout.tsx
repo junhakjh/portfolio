@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import RecoilRootContext from '@/context/RecoilRootContext';
 import Footer from '@/components/layout/Footer';
 import BackgroundImg from '@/components/layout/BackgroundImg';
+import SWRConfigContext from '@/context/SWRConfigContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,7 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header>
             <Header />
           </header>
-          <main className='grow'>{children}</main>
+          <main className='grow'>
+            <SWRConfigContext>{children}</SWRConfigContext>
+          </main>
           <footer>
             <Footer />
           </footer>

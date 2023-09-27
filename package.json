@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11",
     "next": "latest",
     "react": "latest",
     "react-awesome-reveal": "^4.2.5",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
-    "recoil": "^0.7.7"
+    "recoil": "^0.7.7",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "latest",

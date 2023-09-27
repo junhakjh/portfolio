@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Bottender",
+    "description": "사용자 개인 선호도 기반 칵테일 레시피 추천 서비스",
+    "period": {
+      "start": "2023-03",
+      "end": "2023-05"
+    },
+    "functions": [
+      "추천 칵테일 레시피 확인",
+      "이름, 재료, 키워드로 칵테일 및 재료 검색",
+      "커스텀 칵테일 레시피 제작",
+      "보유 재료를 등록해 놓을 수 있는 내 냉장고 등록"
+    ],
+    "techniques": [
+      {
+        "name": "React",
+        "description": "Project tech 1 description",
+        "image": "/images/ReactIcon.png"
+      },
+      {
+        "name": "Sass",
+        "description": "Project tech 2 description",
+        "image": "/images/SassIcon.png"
+      },
+      {
+        "name": "Recoil",
+        "description": "Project tech 3 description",
+        "image": "/images/RecoilIcon.svg"
+      },
+      {
+        "name": "JWT",
+        "description": "Project tech 4 description",
+        "image": "/images/JWTIcon.png"
+      },
+      {
+        "name": "Sentry",
+        "description": "Project tech 4 description",
+        "image": "/images/SentryIcon.svg"
+      },
+      {
+        "name": "PWA",
+        "description": "Project tech 4 description",
+        "image": "/images/PWAIcon.png"
+      }
+    ]
+  }
+]

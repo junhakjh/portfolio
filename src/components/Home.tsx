@@ -1,5 +1,5 @@
 import FadeReveal from './reveal/FadeReveal';
-import { BiChevronsDown } from 'react-icons/bi';
+import DownIcon from './ui/icons/DownIcon';
 
 const ABOUT_ME = 'text-6xl font-semibold';
 
@@ -23,7 +23,7 @@ export default function Home() {
             맡은 일이 있다면 기한 내에 무슨 일이 있어도 완수합니다.
           </p>
           <p className='text-4xl'>
-            <BiChevronsDown />
+            <DownIcon />
           </p>
         </FadeReveal>
       </section>
