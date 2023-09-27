@@ -14,15 +14,18 @@
     "@mui/icons-material": "^5.14.11",
     "@mui/material": "^5.14.11",
     "next": "latest",
+    "nodemailer": "^6.9.5",
     "react": "latest",
     "react-awesome-reveal": "^4.2.5",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
     "recoil": "^0.7.7",
+    "sharp": "^0.32.6",
     "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "latest",
+    "@types/nodemailer": "^6.4.11",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
