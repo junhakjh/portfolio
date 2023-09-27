@@ -40,7 +40,7 @@ export default function AboutMe() {
       <FadeReveal>
         <CategoryTitle>About me</CategoryTitle>
       </FadeReveal>
-      <FadeReveal>
+      <FadeReveal cascade={false}>
         <ul className='my-12 grid grid-cols-3 gap-6'>
           {aboutMe.map((info, index) => (
             <li className='bg-white w-full rounded-2xl shadow-lg' key={index}>

@@ -1,5 +1,9 @@
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 
-export default function CheckIcon() {
-  return <CheckRoundedIcon sx={{ color: '#ff9b29' }} className='mr-2' />;
+type Props = {
+  color?: string;
+};
+
+export default function CheckIcon({ color = '#ff9b29' }: Props) {
+  return <CheckRoundedIcon sx={{ color: color }} className='mr-2' />;
 }
