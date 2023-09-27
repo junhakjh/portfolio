@@ -1,0 +1,23 @@
+.card {
+  display: inline-grid;
+  transition: transform 0.4s;
+  transform: perspective(800px) rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.cardFlipped {
+  display: inline-grid;
+  transition: transform 0.4s;
+  transform: perspective(800px) rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.card > *,
+.cardFlipped > * {
+  grid-area: 1 / 1 / 1 / 1;
+  backface-visibility: hidden;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
