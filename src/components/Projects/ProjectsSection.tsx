@@ -6,11 +6,15 @@ import CategoryTitle from '../typography/CategoryTitle';
 import ProjectInfo from './ProjectInfo';
 import useSWR from 'swr';
 
-export default function ProjectsSection() {
+type Props = {
+  projectsRef: React.RefObject<HTMLDivElement>;
+};
+
+export default function ProjectsSection({ projectsRef }: Props) {
   const { data } = useSWR<ProjectInfoType[]>('/api/projects');
 
   return (
-    <section className='py-24'>
+    <section className='py-24' ref={projectsRef}>
       <FadeReveal>
         <CategoryTitle>Projects</CategoryTitle>
       </FadeReveal>

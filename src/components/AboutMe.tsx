@@ -1,3 +1,4 @@
+import { type } from 'os';
 import FadeReveal from './reveal/FadeReveal';
 import CategoryTitle from './typography/CategoryTitle';
 import CakeIcon from './ui/icons/CakeIcon';
@@ -34,9 +35,13 @@ const aboutMe = [
   },
 ];
 
-export default function AboutMe() {
+type Props = {
+  aboutMeRef: React.RefObject<HTMLDivElement>;
+};
+
+export default function AboutMe({ aboutMeRef }: Props) {
   return (
-    <section className='py-24'>
+    <section className='py-24' ref={aboutMeRef}>
       <FadeReveal>
         <CategoryTitle>About me</CategoryTitle>
       </FadeReveal>
