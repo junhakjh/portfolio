@@ -36,10 +36,12 @@ export default function ScrollSensing() {
   return (
     <ul>
       <Home homeRef={homeRef} />
-      <div className='bg-background px-96'>
-        <ProjectsSection projectsRef={projectsRef} />
-        <AboutMe aboutMeRef={aboutMeRef} />
-        <Contact contactRef={contactRef} />
+      <div className='bg-background w-full'>
+        <div className='mx-auto xl:w-[60rem] md:w-[50rem] w-full md:px-0 px-6'>
+          <ProjectsSection projectsRef={projectsRef} />
+          <AboutMe aboutMeRef={aboutMeRef} />
+          <Contact contactRef={contactRef} />
+        </div>
       </div>
     </ul>
   );

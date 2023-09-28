@@ -12,3 +12,10 @@ p {
   font-size: 1.2rem;
   line-height: 2rem;
 }
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
