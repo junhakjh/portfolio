@@ -9,7 +9,7 @@ export default function Header() {
   const menuList: NavigationState[] = ['Home', 'Projects', 'About me', 'Contact'];
 
   return (
-    <nav className='fixed left-0 top-1/2 -translate-y-1/2 h-80 p-4 bg-nav rounded-r-2xl text-zinc-100 text-lg font-medium'>
+    <nav className='fixed left-0 top-1/2 -translate-y-1/2 h-80 p-4 bg-nav rounded-r-2xl text-zinc-100 text-lg font-medium min-[1100px]:block hidden'>
       <ul className='h-full w-24 flex flex-col justify-around items-center'>
         {menuList.map((menu) => (
           <li key={menu}>

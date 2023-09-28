@@ -45,7 +45,7 @@ export default function ConatactForm() {
   };
 
   return (
-    <div className='w-96 p-6 mx-auto my-12 bg-white shadow-lg rounded-xl'>
+    <div className='md:w-96 w-full p-6 mx-auto my-12 bg-white shadow-lg rounded-xl'>
       {isSuccess !== 0 && (
         <p className='flex items-center text-base text-gray-600'>
           {isSuccess === 1 ? (

@@ -8,7 +8,7 @@ type Props = {
 
 export default function Contact({ contactRef }: Props) {
   return (
-    <section className='py-24' ref={contactRef}>
+    <section className='md:py-24 py-12' ref={contactRef}>
       <FadeReveal>
         <CategoryTitle>Contact</CategoryTitle>
       </FadeReveal>

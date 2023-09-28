@@ -41,17 +41,17 @@ type Props = {
 
 export default function AboutMe({ aboutMeRef }: Props) {
   return (
-    <section className='py-24' ref={aboutMeRef}>
+    <section className='md:py-24 py-12' ref={aboutMeRef}>
       <FadeReveal>
         <CategoryTitle>About me</CategoryTitle>
       </FadeReveal>
       <FadeReveal cascade={false}>
-        <ul className='my-12 grid grid-cols-3 gap-6'>
+        <ul className='my-12 grid md:grid-cols-3 gap-6'>
           {aboutMe.map((info, index) => (
             <li className='bg-white w-full rounded-2xl shadow-lg' key={index}>
-              <p className='flex justify-center items-center text-2xl h-32'>
+              <p className='flex xl:flex-row flex-col gap-2 justify-center items-center xl:text-2xl md:text-xl text-lg md:h-32 h-24 text-center'>
                 {info.icon}
-                <span className='ml-5'>{info.content}</span>
+                <span>{info.content}</span>
               </p>
             </li>
           ))}
