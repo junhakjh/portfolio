@@ -5,7 +5,6 @@ export type ProjectInfoType = {
     start: string;
     end?: string;
   };
-  detail: string;
   functions: string[];
   techniques: {
     name: string;
