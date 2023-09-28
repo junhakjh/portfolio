@@ -11,7 +11,7 @@ type Props = {
 
 const SUBTITLE = 'md:text-3xl text-2xl font-semibold md:my-6 my-4 flex items-center';
 
-export default function ProjectInfo({ data: { title, description, period, functions, techniques }, isLast }: Props) {
+export default function ProjectInfo({ data: { title, description, period, details, techniques }, isLast }: Props) {
   return (
     <article className='my-12'>
       <h2 className='md:text-5xl text-4xl font-semibold'>{title}</h2>
@@ -22,12 +22,12 @@ export default function ProjectInfo({ data: { title, description, period, functi
       </p>
       <h3 className={SUBTITLE}>
         <DocumentIcon />
-        주요 기능
+        Details
       </h3>
       <ul>
-        {functions.map((func, i) => (
+        {details.map((func, i) => (
           <li key={i}>
-            <p className='flex'>
+            <p className='flex items-center'>
               <CheckIcon />
               <span>{func}</span>
             </p>
