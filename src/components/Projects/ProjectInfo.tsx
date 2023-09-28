@@ -6,11 +6,12 @@ import StarIcon from '../ui/icons/StarIcon';
 
 type Props = {
   data: ProjectInfoType;
+  isLast: boolean;
 };
 
 const SUBTITLE = 'md:text-3xl text-2xl font-semibold md:my-6 my-4 flex items-center';
 
-export default function ProjectInfo({ data: { title, description, period, functions, techniques } }: Props) {
+export default function ProjectInfo({ data: { title, description, period, functions, techniques }, isLast }: Props) {
   return (
     <article className='my-12'>
       <h2 className='md:text-5xl text-4xl font-semibold'>{title}</h2>
@@ -45,6 +46,7 @@ export default function ProjectInfo({ data: { title, description, period, functi
           </li>
         ))}
       </ul>
+      {!isLast && <hr className='my-20 border-2 border-orange-600' />}
     </article>
   );
 }

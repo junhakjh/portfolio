@@ -23,7 +23,7 @@ export default function ProjectsSection({ projectsRef }: Props) {
           {data.map((project, index) => (
             <li key={index}>
               <FadeReveal>
-                <ProjectInfo data={project} />
+                <ProjectInfo data={project} isLast={index === data.length - 1} />
               </FadeReveal>
             </li>
           ))}
