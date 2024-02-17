@@ -4,13 +4,10 @@ import styles from './FlippingCard.module.css';
 import { useState } from 'react';
 import CardFront from './CardFront';
 import CardBack from './CardBack';
+import { TechniqueType } from '@/model/project';
 
 type Props = {
-  technique: {
-    name: string;
-    image: string;
-    description: string;
-  };
+  technique: TechniqueType;
 };
 
 export default function FlippingCard({ technique: { name, image, description } }: Props) {
