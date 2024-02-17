@@ -19,7 +19,7 @@ export default function FlippingCard({ technique: { name, image, description } }
   return (
     <section
       className={
-        'md:h-[23.5rem] h-64 w-full xl:p-10 md:p-7 p-4 bg-gray-200 rounded-xl shadow-lg hover:shadow-xl cursor-pointer ' +
+        'md:h-[18rem] h-64 w-full xl:p-7 md:p-6 p-4 bg-gray-200 rounded-xl shadow-lg hover:shadow-xl cursor-pointer ' +
         (isFlipped ? styles.cardFlipped : styles.card)
       }
       onClick={() => setIsFlipped(!isFlipped)}

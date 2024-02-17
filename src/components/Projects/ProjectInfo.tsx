@@ -39,7 +39,7 @@ export default function ProjectInfo({ data: { title, description, period, detail
         사용 기술
         <span className='ml-2 self-end md:text-xl text-lg text-gray-600 font-medium'>Click Card!</span>
       </h3>
-      <ul className='grid md:grid-cols-3 grid-cols-2 gap-6'>
+      <ul className='grid md:grid-cols-4 grid-cols-2 gap-6'>
         {techniques.map((technique, i) => (
           <li key={i}>
             <FlippingCard technique={technique} />
