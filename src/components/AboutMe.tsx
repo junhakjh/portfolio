@@ -1,39 +1,7 @@
 import FadeReveal from './reveal/FadeReveal';
 import CategoryTitle from './typography/CategoryTitle';
-import CakeIcon from './ui/icons/CakeIcon';
-import MailIcon from './ui/icons/MailIcon';
-import MapPinIcon from './ui/icons/MapPinIcon';
-import PhoneIcon from './ui/icons/PhoneIcon';
-import UniversityIcon from './ui/icons/UniversityIcon';
-import UserIcon from './ui/icons/UserIcon';
+import { aboutMe } from '../lib/myInfo';
 import { v4 as uuidv4 } from 'uuid';
-
-const aboutMe = [
-  {
-    icon: <UserIcon />,
-    content: '김준하',
-  },
-  {
-    icon: <CakeIcon />,
-    content: '1999-06-12',
-  },
-  {
-    icon: <PhoneIcon />,
-    content: '010-5683-2882',
-  },
-  {
-    icon: <MailIcon />,
-    content: 'junhakjh@ajou.ac.kr',
-  },
-  {
-    icon: <MapPinIcon />,
-    content: '경기도 화성시',
-  },
-  {
-    icon: <UniversityIcon />,
-    content: '아주대학교, 소프트웨어학과',
-  },
-];
 
 type Props = {
   aboutMeRef: React.RefObject<HTMLDivElement>;
