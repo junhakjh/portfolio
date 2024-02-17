@@ -3,6 +3,7 @@ import FlippingCard from '../ui/FlippingCard/FlippingCard';
 import CheckIcon from '../ui/icons/CheckIcon';
 import DocumentIcon from '../ui/icons/DocumentIcon';
 import StarIcon from '../ui/icons/StarIcon';
+import { v4 as uuidv4 } from 'uuid';
 
 type Props = {
   data: ProjectInfoType;
@@ -25,8 +26,8 @@ export default function ProjectInfo({ data: { title, description, period, detail
         Details
       </h3>
       <ul>
-        {details.map((func, i) => (
-          <li key={i}>
+        {details.map((func) => (
+          <li key={uuidv4()}>
             <p className='flex items-center'>
               <CheckIcon />
               <span>{func}</span>
@@ -40,8 +41,8 @@ export default function ProjectInfo({ data: { title, description, period, detail
         <span className='ml-2 self-end md:text-xl text-lg text-gray-600 font-medium'>Click Card!</span>
       </h3>
       <ul className='grid md:grid-cols-4 grid-cols-2 gap-6'>
-        {techniques.map((technique, i) => (
-          <li key={i}>
+        {techniques.map((technique) => (
+          <li key={uuidv4()}>
             <FlippingCard technique={technique} />
           </li>
         ))}

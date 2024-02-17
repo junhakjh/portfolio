@@ -1,4 +1,3 @@
-import { type } from 'os';
 import FadeReveal from './reveal/FadeReveal';
 import CategoryTitle from './typography/CategoryTitle';
 import CakeIcon from './ui/icons/CakeIcon';
@@ -7,6 +6,7 @@ import MapPinIcon from './ui/icons/MapPinIcon';
 import PhoneIcon from './ui/icons/PhoneIcon';
 import UniversityIcon from './ui/icons/UniversityIcon';
 import UserIcon from './ui/icons/UserIcon';
+import { v4 as uuidv4 } from 'uuid';
 
 const aboutMe = [
   {
@@ -47,8 +47,8 @@ export default function AboutMe({ aboutMeRef }: Props) {
       </FadeReveal>
       <FadeReveal cascade={false}>
         <ul className='my-12 grid md:grid-cols-3 gap-6'>
-          {aboutMe.map((info, index) => (
-            <li className='bg-white w-full rounded-2xl shadow-lg' key={index}>
+          {aboutMe.map((info) => (
+            <li className='bg-white w-full rounded-2xl shadow-lg' key={uuidv4()}>
               <p className='flex xl:flex-row flex-col gap-2 justify-center items-center xl:text-2xl md:text-xl text-lg md:h-32 h-24 text-center'>
                 {info.icon}
                 <span>{info.content}</span>
