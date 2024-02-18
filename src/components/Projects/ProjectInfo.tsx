@@ -10,14 +10,14 @@ type Props = {
 };
 
 export default function ProjectInfo({
-  data: { title, description, period, details, images, techniques },
+  data: { title, description, period, links, details, images, techniques },
   isLast,
 }: Props) {
   return (
     <article className='my-12'>
       <h2 className='md:text-5xl text-4xl font-semibold'>{title}</h2>
       <br />
-      <Description description={description} period={period} />
+      <Description description={description} period={period} links={links} />
       <Details details={details} />
       <Thumbnails images={images} />
       <Technique techniques={techniques} />

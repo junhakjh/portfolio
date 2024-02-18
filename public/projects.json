@@ -6,6 +6,7 @@
       "start": "2023. 09",
       "end": "2023. 12"
     },
+    "links": ["https://github.com/TravelMate-Ajou-Univ/Frontend"],
     "details": [
       "계절/지역별 여행 게시글 조회",
       "여행 게시글 작성 및 수정 요청",
@@ -102,6 +103,7 @@
       "start": "2023. 09. 26",
       "end": "2023. 09. 29"
     },
+    "links": ["https://github.com/junhakjh/portfolio"],
     "details": ["내 프로젝트 및 사용 기술 소개", "나에 대한 소개", "nodemailer를 이용한 메일 전송", "1인 프로젝트"],
     "techniques": [
       {
@@ -143,6 +145,7 @@
       "start": "2023. 03",
       "end": "2023. 05"
     },
+    "links": ["https://github.com/PRADA-1541/PRADA-FE"],
     "details": [
       "추천 칵테일 레시피 확인",
       "이름, 재료, 키워드로 칵테일 및 재료 검색",
