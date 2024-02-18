@@ -13,6 +13,40 @@
       "함께 여행을 계획중인 사용자들과 실시간으로 정보를 공유할 수 있는 실시간 채팅",
       "유저와 게시글을 관리할 수 있는 admin"
     ],
+    "images": [
+      {
+        "src": "/projects/travelmate/postingList.png",
+        "label": "게시글 목록"
+      },
+      {
+        "src": "/projects/travelmate/postingDetail.png",
+        "label": "게시글 상세 조회"
+      },
+      {
+        "src": "/projects/travelmate/postingNew1.png",
+        "label": "게시글 작성1"
+      },
+      {
+        "src": "/projects/travelmate/postingNew2.png",
+        "label": "게시글 작성2"
+      },
+      {
+        "src": "/projects/travelmate/postingEditRequest.png",
+        "label": "게시글 수정 요청"
+      },
+      {
+        "src": "/projects/travelmate/requestConfirm1.png",
+        "label": "게시글 수정 요청 확인1"
+      },
+      {
+        "src": "/projects/travelmate/requestConfirm2.png",
+        "label": "게시글 수정 요청 확인2"
+      },
+      {
+        "src": "/projects/travelmate/chatting.png",
+        "label": "채팅"
+      }
+    ],
     "techniques": [
       {
         "name": "React",
@@ -116,6 +150,28 @@
       "보유 재료를 등록해 놓을 수 있는 내 냉장고 등록",
       "FE 1명, BE 2명, AI 2명, 데이터 수집 및 가공 1명으로 이루어진 팀 프로젝트",
       "카카오 로그인 인증(OAuth 2.0)"
+    ],
+    "images": [
+      {
+        "src": "/projects/bottender/main.png",
+        "label": "메인 - 추천 칵테일 레시피"
+      },
+      {
+        "src": "/projects/bottender/recipeDetail.png",
+        "label": "칵테일 레시피 상세 조회"
+      },
+      {
+        "src": "/projects/bottender/recipeNew.png",
+        "label": "커스텀 칵테일 레시피 제작"
+      },
+      {
+        "src": "/projects/bottender/refrigeratorList.png",
+        "label": "내 냉장고 목록"
+      },
+      {
+        "src": "/projects/bottender/refrigerator.png",
+        "label": "내 냉장고"
+      }
     ],
     "techniques": [
       {

@@ -34,7 +34,7 @@ export default function ScrollSensing() {
   }, [curMenu]);
 
   return (
-    <ul>
+    <>
       <Home homeRef={homeRef} />
       <div className='bg-background w-full'>
         <div className='mx-auto xl:w-[60rem] md:w-[50rem] w-full md:px-0 px-6'>
@@ -43,6 +43,6 @@ export default function ScrollSensing() {
           <Contact contactRef={contactRef} />
         </div>
       </div>
-    </ul>
+    </>
   );
 }
