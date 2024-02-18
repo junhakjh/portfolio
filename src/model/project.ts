@@ -16,6 +16,7 @@ export type ProjectInfoType = {
     start: string;
     end?: string;
   };
+  links?: [];
   details: string[];
   images: ProjectImageType[];
   techniques: TechniqueType[];
