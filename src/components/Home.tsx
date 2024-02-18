@@ -10,7 +10,7 @@ type Props = {
 export default function Home({ homeRef }: Props) {
   return (
     <div
-      className='h-screen bg-black bg-opacity-40 flex flex-col justify-center items-center text-white md:px-0 px-4'
+      className='h-screen bg-black/40 flex flex-col justify-center items-center text-white md:px-0 px-4'
       ref={homeRef}
     >
       <section className='h-96 flex flex-col justify-between items-center'>

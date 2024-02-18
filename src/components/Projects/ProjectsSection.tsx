@@ -5,6 +5,7 @@ import FadeReveal from '../reveal/FadeReveal';
 import CategoryTitle from '../typography/CategoryTitle';
 import ProjectInfo from './ProjectInfo';
 import useSWR from 'swr';
+import { v4 as uuidv4 } from 'uuid';
 
 type Props = {
   projectsRef: React.RefObject<HTMLDivElement>;
@@ -21,7 +22,7 @@ export default function ProjectsSection({ projectsRef }: Props) {
       {data && (
         <ul>
           {data.map((project, index) => (
-            <li key={index}>
+            <li key={uuidv4()}>
               <FadeReveal>
                 <ProjectInfo data={project} isLast={index === data.length - 1} />
               </FadeReveal>

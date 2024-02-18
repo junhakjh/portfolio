@@ -1,3 +1,14 @@
+export type ProjectImageType = {
+  src: string;
+  label: string;
+};
+
+export type TechniqueType = {
+  name: string;
+  description: string;
+  image: string;
+};
+
 export type ProjectInfoType = {
   title: string;
   description: string;
@@ -6,9 +17,6 @@ export type ProjectInfoType = {
     end?: string;
   };
   details: string[];
-  techniques: {
-    name: string;
-    description: string;
-    image: string;
-  }[];
+  images: ProjectImageType[];
+  techniques: TechniqueType[];
 };
