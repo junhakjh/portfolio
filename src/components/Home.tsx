@@ -23,7 +23,7 @@ export default function Home({ homeRef }: Props) {
             입니다.
           </p>
           <p className='text-center md:text-3xl text-2xl'>
-            주니어 프론트엔드 개발자입니다.
+            신입 프론트엔드 개발자입니다.
             <br />
             새로운 것을 배우고 적용하는 것을 좋아합니다.
             <br />
