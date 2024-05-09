@@ -50,13 +50,8 @@
     ],
     "techniques": [
       {
-        "name": "React",
-        "description": "컴포넌트를 이용하여 재사용성을 높일 수 있습니다. 또한 논리적으로 파일을 나누어서 개발을 진행할 수 있고 React를 사용하는 개발자가 많아서 관련 자료를 찾기에 유리합니다.",
-        "image": "/images/ReactIcon.png"
-      },
-      {
         "name": "Next.JS",
-        "description": "SSR을 지원하는 React 프레임워크입니다. SSR을 적용하여 SEO를 향상시켰습니다.",
+        "description": "SSR을 지원하는 React 프레임워크입니다. SSR을 적용하여 SEO를 향상했습니다.",
         "image": "/images/NextJSIcon.png"
       },
       {
@@ -91,7 +86,7 @@
       },
       {
         "name": "Vercel",
-        "description": "Vercel을 이용하면 무료로 배포 가능하고 CI/CD가 자동으로 구현되어 있어서 메인 브랜치에 merge 되었을 때, 또는 다른 브랜치에서 merge 또는 commit이 발생했을 때 preview deployment를 제공하여 발생하는 오류를 확인할 수 있어서 선택하게 되었습니다.",
+        "description": "Vercel을 이용하면 무료로 배포 가능하고 CI/CD가 이미 구현되어 있기 때문에 따로 자동화를 구축할 필요가 없습니다. 또한 브랜치에서 merge 또는 commit이 발생했을 때 preview deployment를 제공하기 때문에 선택하게 되었습니다.",
         "image": "/images/VercelIcon.svg"
       }
     ]
@@ -107,13 +102,8 @@
     "details": ["내 프로젝트 및 사용 기술 소개", "나에 대한 소개", "nodemailer를 이용한 메일 전송", "1인 프로젝트"],
     "techniques": [
       {
-        "name": "React",
-        "description": "컴포넌트를 이용하여 재사용성을 높일 수 있습니다. 또한 논리적으로 파일을 나누어서 개발을 진행할 수 있고 React를 사용하는 개발자가 많아서 관련 자료를 찾기에 유리합니다.",
-        "image": "/images/ReactIcon.png"
-      },
-      {
         "name": "Next.JS",
-        "description": "SSR을 지원하는 React 프레임워크입니다. SSR을 적용하고 meta태그를 추가함으로써 SEO를 향상시켰습니다.",
+        "description": "SSR을 지원하는 React 프레임워크입니다. SSR을 적용하여 SEO를 향상했습니다.",
         "image": "/images/NextJSIcon.png"
       },
       {
@@ -133,7 +123,7 @@
       },
       {
         "name": "Vercel",
-        "description": "Vercel을 이용하면 무료로 배포 가능하고 CI/CD가 자동으로 구현되어 있어서 메인 브랜치에 merge 되었을 때, 또는 다른 브랜치에서 merge 또는 commit이 발생했을 때 preview deployment를 제공하여 발생하는 오류를 확인할 수 있어서 선택하게 되었습니다.",
+        "description": "Vercel을 이용하면 무료로 배포 가능하고 CI/CD가 이미 구현되어 있기 때문에 따로 자동화를 구축할 필요가 없습니다. 또한 브랜치에서 merge 또는 commit이 발생했을 때 preview deployment를 제공하기 때문에 선택하게 되었습니다.",
         "image": "/images/VercelIcon.svg"
       }
     ]
